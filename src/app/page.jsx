@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Title } from "./components/Title/title.js";
+import { Title } from "./components/Title/index.js";
 import { Input } from "./components/Input/index.js";
 import { Output } from "./components/FilteredTasks/index.js";
 import useLocalStorage from "use-local-storage-state";
