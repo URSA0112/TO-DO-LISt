@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <div className="pages">
       <div className="to-do-list-container">
-        <Title></Title>
+      <div className="title">To do list</div>
         <Input
           inputvalue={inputtext}
           change={change}
